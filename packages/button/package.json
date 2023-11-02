@@ -1,0 +1,29 @@
+{
+  "name": "@super-ui/button",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "liushengkai <949919743@qq.com>",
+  "homepage": "https://github.com/lskAtGithub/super-ui#readme",
+  "license": "ISC",
+  "main": "lib/button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lskAtGithub/super-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lskAtGithub/super-ui/issues"
+  }
+}
