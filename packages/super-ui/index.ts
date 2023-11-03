@@ -6,7 +6,7 @@ const components = [Button]
 
 const install = (app: App) => {
   components.forEach((component) => {
-    app.use(component.name as any, component)
+    app.component(component.name, component)
   })
 }
 
