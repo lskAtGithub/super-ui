@@ -2,9 +2,9 @@
   <button>按钮</button>
 </template>
 
-<script lang="ts" setup>
-</script>
-
 <script lang="ts">
-export default { name: 'SButton' }
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'SButton',
+})
 </script>
