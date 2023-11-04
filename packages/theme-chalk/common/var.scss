@@ -1,0 +1,22 @@
+@import '../mixins/config.scss';
+@import '../mixins/mixins.scss';
+
+$--color-white: #FFFFFF !default;
+$--color-black: #000000 !default;
+
+$--color-primary: #409EFF !default;
+$--color-primary-light: min($--color-white, $--color-primary, 80%);
+
+$--color-success: #67C23A !default;
+$--color-success-light: min($--color-white, $--color-success, 80%);
+
+$--color-warning: #E6A23C !default;
+$--color-warning-light: min($--color-white, $--color-warning, 80%);
+
+$--color-danger: #F56C6C !default;
+$--color-danger-light: min($--color-white, $--color-danger, 80%);
+
+$--color-info: #909399 !default;
+$--color-info-light: min($--color-white, $--color-info, 80%);
+
+$--background-color-base: #F5F7FA !default;
