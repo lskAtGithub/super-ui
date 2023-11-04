@@ -1,0 +1,157 @@
+@import './common/var.scss';
+
+@font-face {
+  font-family: 'iconfont'; /* Project id 4315588 */
+  /* Color fonts */
+  src: url('./fonts/iconfont.woff2?t=1699024152297') format('woff2'),
+    url('./fonts/iconfont.woff?t=1699024152297') format('woff'),
+    url('./fonts/iconfont.ttf?t=1699024152297') format('truetype');
+}
+
+[class^='#{$namespace}-icon-'] {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.s-icon-facebook:before {
+  content: '\eb73';
+}
+
+.s-icon-facebook-messenger:before {
+  content: '\eb74';
+}
+
+.s-icon-tiktok:before {
+  content: '\eb75';
+}
+
+.s-icon-behance:before {
+  content: '\eb76';
+}
+
+.s-icon-twitter:before {
+  content: '\eb77';
+}
+
+.s-icon-tumber:before {
+  content: '\eb78';
+}
+
+.s-icon-youtube:before {
+  content: '\eb79';
+}
+
+.s-icon-linkedin:before {
+  content: '\eb7a';
+}
+
+.s-icon-weixin:before {
+  content: '\eb7b';
+}
+
+.s-icon-whatsapp:before {
+  content: '\eb7c';
+}
+
+.s-icon-tengxunQQ:before {
+  content: '\eb7d';
+}
+
+.s-icon-shipinhao:before {
+  content: '\eb7e';
+}
+
+.s-icon-xinlang:before {
+  content: '\eb7f';
+}
+
+.s-icon-baidu:before {
+  content: '\eb80';
+}
+
+.s-icon-doubanwang:before {
+  content: '\eb81';
+}
+
+.s-icon-bilibili:before {
+  content: '\eb82';
+}
+
+.s-icon-gongzhonghao:before {
+  content: '\eb83';
+}
+
+.s-icon-huoshanxiaoshipin:before {
+  content: '\eb84';
+}
+
+.s-icon-ximalaya:before {
+  content: '\eb85';
+}
+
+.s-icon-kuaishou:before {
+  content: '\eb86';
+}
+
+.s-icon-xiaohongshu:before {
+  content: '\eb87';
+}
+
+.s-icon-baidutieba:before {
+  content: '\eb88';
+}
+
+.s-icon-aiqiyi:before {
+  content: '\eb89';
+}
+
+.s-icon-tengxunshipin:before {
+  content: '\eb8a';
+}
+
+.s-icon-tengxunhuiyi:before {
+  content: '\eb8b';
+}
+
+.s-icon-dingding:before {
+  content: '\eb8c';
+}
+
+.s-icon-tengxunweishi:before {
+  content: '\eb8d';
+}
+
+.s-icon-weixinzhifu:before {
+  content: '\eb8e';
+}
+
+.s-icon-momo:before {
+  content: '\eb8f';
+}
+
+.s-icon-QQyinle:before {
+  content: '\eb90';
+}
+
+.s-icon-elemo:before {
+  content: '\eb91';
+}
+
+.s-icon-taobao:before {
+  content: '\eb92';
+}
+
+.s-icon-qiyeweixin:before {
+  content: '\eb93';
+}
+
+.s-icon-instagram:before {
+  content: '\eb94';
+}
+
+.s-icon-zhihu:before {
+  content: '\eb95';
+}
