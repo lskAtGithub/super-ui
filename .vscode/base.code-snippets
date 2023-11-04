@@ -1,0 +1,23 @@
+{
+  "Print to console": {
+    "scope": "vue",
+    "prefix": "base",
+    "body": [
+      "<template>",
+      "  <div>",
+      "    ",
+      "  </div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { defineComponent } from 'vue'",
+      "",
+      "export default defineComponent({",
+      "  name: '',",
+      "})",
+      "</script>",
+      ""
+    ],
+    "description": "vue components base code"
+  }
+}
