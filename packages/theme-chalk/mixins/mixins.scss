@@ -1,4 +1,3 @@
-@import '../common/var.scss';
 
 @mixin b($block) {
   $B: $namespace+'-'+$block;

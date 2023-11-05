@@ -1,22 +1,43 @@
 @import '../mixins/config.scss';
 @import '../mixins/mixins.scss';
+@import '../mixins/functions.scss';
+
+// color
 
 $--color-white: #FFFFFF !default;
 $--color-black: #000000 !default;
+$--font-path: 'fonts' !default;
 
 $--color-primary: #409EFF !default;
-$--color-primary-light: min($--color-white, $--color-primary, 80%);
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default;
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default;
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default;
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default;
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default;
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default;
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default;
 
 $--color-success: #67C23A !default;
-$--color-success-light: min($--color-white, $--color-success, 80%);
+$--color-success-light: mix($--color-white, $--color-success, 80%) !default;
 
 $--color-warning: #E6A23C !default;
-$--color-warning-light: min($--color-white, $--color-warning, 80%);
+$--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
 
 $--color-danger: #F56C6C !default;
-$--color-danger-light: min($--color-white, $--color-danger, 80%);
+$--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;
 
 $--color-info: #909399 !default;
-$--color-info-light: min($--color-white, $--color-info, 80%);
+$--color-info-light: mix($--color-white, $--color-info, 80%) !default;
 
 $--background-color-base: #F5F7FA !default;
+
+$--border-color: #DCDFE6 !default;
+$--button-background-color: #FFFFFF;
+//  size
+
+$--button-height-base: 32px !default;
+$--button-height-small: 24px !default;
+$--button-height-large: 40px !default;
+$--border-radius: 2px;

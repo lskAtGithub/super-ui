@@ -1,2 +1,51 @@
 @import './common/var.scss';
 
+@include b(button) {
+  display: inline-block;
+  line-height: 1;
+  min-height: $--button-height-base;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  padding: 0 15px;
+  vertical-align: middle;
+  background: $--button-background-color;
+  border-radius: $--border-radius;
+  @include border($--border-color);
+
+  & [class*='#{$namespace}-icon-'] {
+    & + span {
+      margin-left: 5px;
+    }
+  }
+
+  &:hover {
+    color: $--color-primary-light-1;
+    background: $--color-primary-light-9;
+    @include border($--color-primary-light-7);
+  }
+
+  @include when(disabled){
+    cursor: not-allowed;
+  }
+
+  @include m(primary) {
+    @include button-variant($--color-white, $--color-primary);
+  }
+
+  @include m(success) {
+    @include button-variant($--color-white, $--color-success);
+  }
+
+  @include m(warning) {
+    @include button-variant($--color-white, $--color-warning);
+  }
+
+  @include m(info) {
+    @include button-variant($--color-white, $--color-info);
+  }
+
+  @include m(danger) {
+    @include button-variant($--color-white, $--color-danger);
+  }
+}

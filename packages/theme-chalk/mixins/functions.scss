@@ -1,0 +1,21 @@
+
+/*
+ * shadows achieve thin edges
+ */
+@mixin border($color) {
+  box-shadow: 0px 0px 0px 0.5px $color;
+  border: none;
+}
+
+@mixin button-variant($color, $background-color) {
+  color: $color;
+  background-color: $background-color;
+  @include border($background-color);
+
+  &:hover,
+  &:focus {
+    background: mix($--color-white, $background-color, 20%);
+    @include border($background-color);
+    color: $color;
+  }
+}
