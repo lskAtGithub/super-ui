@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'iconfont'; /* Project id 4315588 */
   /* Color fonts */
-  src: url('./fonts/iconfont.woff2?t=1699024152297') format('woff2'),
-    url('./fonts/iconfont.woff?t=1699024152297') format('woff'),
-    url('./fonts/iconfont.ttf?t=1699024152297') format('truetype');
+  src: url('#{$--font-path}/iconfont.woff2?t=1699024152297') format('woff2'),
+    url('#{$--font-path}/iconfont.woff?t=1699024152297') format('woff'),
+    url('#{$--font-path}/iconfont.ttf?t=1699024152297') format('truetype');
 }
 
 [class^='#{$namespace}-icon-'] {
